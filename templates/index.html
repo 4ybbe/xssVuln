@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Salvar</title>
+    </head>
+
+    <!-- <body onload="document.forms['mostrar'].submit()"> -->
+    <body>
+        <div>
+            <img src="/templates/may.gif" alt="bye">
+
+            <form method="post" action="/mesalvar" enctype="multipart/form-data">               
+
+                
+
+                <label for="usuario">Nome </label>
+                <input type="text" name="nome" id="nome"/>
+                <br/>
+
+                <label for="biscoito">Cookie </label>
+                <input type="text" name="biscoito" id="biscoito"/>
+                <br/>
+
+                <input type="submit" name="salvar" id="salvar" value="Salvar Nome"/>          
+            </form>
+        </div>
+
+        <br/>
+
+        <div>
+            <iframe src="/usuarios.html"></iframe>
+        </div>
+    </body>
+
+</html>
